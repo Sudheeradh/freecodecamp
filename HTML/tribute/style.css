@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+body {
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 5rem;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 5px #ffffff;
+    font-weight: bolder;
+    /* position: fixed; */
+    width: 100vw;
+    margin-bottom: 3rem;
+}
+
+#image {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+    box-shadow: 0 0 10px 10px black;
+}
+
+#image:hover {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 51%;
+    height: auto;
+    box-shadow: 0 0 25px 20px black;
+}
+
+#img-div {
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgb(12, 9, 138);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#tribute-info {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.info {
+
+    background: rgba(200, 201, 197, 0.575);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 3%;
+}
+
+.link1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.contributions {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    justify-content: center;
+    margin: 0 1vw 0 1vw;
+}
+
+.container {
+    background: rgba(200, 201, 197, 0.575);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    /* margin-left: 1vw;
+    margin-right: 1vw; */
+    padding: 3%;
+}
+
+.container:hover {
+    background: rgba(111, 224, 186, 0.575);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 0 10px 10px rgb(105, 243, 116);
+    /* margin-left: 1vw;
+    margin-right: 1vw; */
+    padding: 3%;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px #ffffff;
+    font-weight: bolder;
+    /* position: fixed; */
+    width: 100vw;
+    margin-bottom: 1rem;
+}
