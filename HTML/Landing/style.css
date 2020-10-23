@@ -1,0 +1,161 @@
+body{
+    background-color:rgb(255, 255, 255);
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
+}
+
+#header-img{
+    width: 50px;
+    height: auto;
+}
+
+p {
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: floralwhite;
+}
+
+.fti {
+    width: 300px;
+    height: auto:
+}
+
+.ft {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 20;
+    align-items: center;
+}
+
+.ft-text {
+    flex-basis: 60%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    /* width: auto; */
+    flex-basis: 20vw;
+}
+
+form {
+    display: block;
+    width: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 130px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: dodgerblue;
+    align-items: center;
+    width: 100vw;
+    position: fixed;
+    z-index: 2;
+}
+
+#docs {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.btn {
+    margin-top: 3px;
+}
+
+.nav-link {
+    margin: 0 10px 0 10px;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-basis: 30vw;
+}
+
+.videoWrapper {
+    display: block;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.blank{
+    height: 50px;
+}
+
+
+@media (max-width: 600px) {
+    .videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+}
+
+@media (max-width: 550px) {
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
+    .logo {
+        display: flex;
+        align-items: center;
+        flex-basis: auto;
+        justify-content: space-between;
+    }
+
+    #header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: dodgerblue;
+        align-items: center;
+    }
+
+    #nav-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 0 0 0;
+        flex-basis: auto;
+    }
+
+    .nav-link {
+        margin: 5px 20vw ;
+    }
+
+    #header-img{
+        width: 100px;
+        height: 100px;
+    }
+
+    form {
+        padding-top: 190px;
+    }
+
+    .fti {
+        width: 200px;
+        height: auto:
+    }
+
+  }
